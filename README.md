@@ -16,11 +16,15 @@ La page index.html regroupe l'ensemble des graphiques. Chaque graphique dispose 
 
 #### Fait
 
-* 
+* Modulo
+* Orbite Mars-Jupiter
 
 #### En cours
 
 #### À faire / Souhaitées (Idées)
+
+* Diagramme de Voronoï
+* Fractale Sierpinski
 
 ## Utilisation
 
