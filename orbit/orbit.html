@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Orbit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="orbit.css" />
+  </head>
+
+  <body>
+    <!-- Menu -->
+    <nav class="p-3">
+      <label for="step">Step</label>
+      <input id="step" type="number" min="1" value="1" class="form-control" />
+    </nav>
+
+    <!-- SVG -->
+    <svg width="100%" height="100%">
+      <!-- Background -->
+      <rect width="100%" height="100%" fill="black"/>
+      <circle id="neptune" class="trajectory" />
+      <circle id="mercury" class="trajectory" />
+      <!-- Drawing -->
+      <g id="drawing"></g>
+    </svg>
+
+    <script src="orbit.js"></script>
+  </body>
+
+</html>

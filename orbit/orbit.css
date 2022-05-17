@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+  
+nav {
+    color: #fff;
+    position: absolute;
+}
+  
+line { 
+    stroke: #fff 
+}
+  
+.trajectory {
+    opacity: 0.25;
+    stroke: #fff;
+    stroke-width: 2;
+    fill: none;
+}
+  
